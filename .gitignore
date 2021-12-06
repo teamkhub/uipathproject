@@ -1,0 +1,12 @@
+#System.out.println git ignore this comment
+#Git ignore below home.txtt files in entire project
+home.txtt
+#Git ignore below main.txtt file in current folder
+/main.txtt
+#Git ignore below .txttxt, *.jsss extension files in entire project
+*.txttxt
+*.jsss
+##Git don't ignore below file
+!main.jsss
+##Git ignore below folder
+buildx/
